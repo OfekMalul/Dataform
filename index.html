@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+<body>
+<!---------------Styles.css------------------>
+<link rel="stylesheet" href="./CSS/Style.css">
+<!-------x-------Styles.css-------x---------->
+
+<!--------------------fontAwesome----------------->
+<link rel="stylesheet" href="./CSS/all.css">
+<!--------------------fontAwesome----------------->
+<div class="header">
+  <h2>Registration Form</h2>
+</div>
+<div class="regForm">
+  <form class="form" id="form">
+    <div class="form-control">
+      <label>Name</label>
+      <input type="text" placeholder="Ofek Malul" id="username">
+      <i class="fas fa-check-circle"></i>
+      <i class="fas fa-exclamation-circle"></i>
+      <small>Error message</small>
+    </div>
+    <div class="form-control">
+      <label>City</label>
+      <input type="text" placeholder="Ashdod" id="city">
+      <i class="fas fa-check-circle"></i>
+      <i class="fas fa-exclamation-circle"></i>
+      <small>Error message</small>
+    </div>
+    <div class="form-control">
+      <label>Street</label>
+      <input type="text" placeholder="Yehuda 5" id="street">
+      <i class="fas fa-check-circle"></i>
+      <i class="fas fa-exclamation-circle"></i>
+      <small>Error message</small>
+    </div>
+    <div class="form-control">
+      <label>Phone Number</label>
+      <input type="tel" placeholder="0507778888" id="phoneNumber" pattern = "[0]{1}[5]{1}[0-5]{1}[0-9]{7}">
+      <i class="fas fa-check-circle"></i>
+      <i class="fas fa-exclamation-circle"></i>
+      <small>Error message</small>
+    </div>
+    <div class="form-control">
+      <label>Email</label>
+      <input type="email" placeholder="myemail@gmail.com" id="email">
+      <i class="fas fa-check-circle"></i>
+      <i class="fas fa-exclamation-circle"></i>
+      <small>Error message</small>
+    </div> 
+   
+      <button>Submit</button>
+    
+  </form>
+</div>
+
+<!----------------JavaScript file---------------------->
+
+  <script src="./JavaScript/Script.js"></script>
+
+<!-----------x-----JavaScript file------------x---------->
+</body>
+</html>
